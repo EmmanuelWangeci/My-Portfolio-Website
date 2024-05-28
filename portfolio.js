@@ -40,9 +40,9 @@ var tablinks = document.getElementsByClassName("tab-links");
     icon.onclick = function(){
         document.body.classList.toggle("light-theme")
         if (document.body.classList.contains("light-theme")) {
-            icon.src = "moon.png"
+            icon.src = "images/moon.png"
         } else {
-            icon.src = "sun.png"
+            icon.src = "images/sun.png"
         }
     }
     // portfolio.js
