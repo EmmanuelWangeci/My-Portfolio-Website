@@ -19,8 +19,6 @@ var tablinks = document.getElementsByClassName("tab-links");
     function closemenu(){
         sidemeu.style.right = "-200px";
     }
-</script>
-<script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyskNhzq_GWCARJo2wHUkc1epni7KfXpBoAM7ydsktwGMnUJjBXKPX9YONRo5g9WMO-5g/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
